@@ -7,18 +7,19 @@
 </head>
 
 <body>
-  <form method="post">
-    
-    <!-- Name -->
+	<h2>Job Application Form</h2>
+	
+	<form method="post">
+   <!-- Name -->
     <label for="name">Name*</label><br>
-    <input type="text" id="name" name="name" required><br>
+    <input type="text" id="name" required><br>
     
     <!-- Email -->
     <label for="email">Email*</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <input type="email" id="email" required><br><br>
     
     <!-- Gender -->
-    <label>Gender*</label><br>
+    <label for="gender">Gender*</label><br>
     <input type="radio" id="male" name="gender" value="Male" required>
     <label for="male">Male</label><br>
     <input type="radio" id="female" name="gender" value="Female" required>
@@ -27,8 +28,8 @@
     <label for="other">Other</label><br><br>
     
     <!-- Laptop Brands -->
-    <label for="laptop">Laptop Brands</label><br>
-    <select id="laptop" name="laptop">
+    <label for="laptop">Laptop Brands*</label><br>
+    <select id="laptop">
       <option value="Apple">Apple</option>
       <option value="Asus">Asus</option>
       <option value="HP">HP</option>
@@ -36,19 +37,19 @@
     
     <!-- Age -->
     <label for="age">Age*</label><br>
-    <input type="number" id="age" name="age" required><br><br>
+    <input type="number" id="age" required><br><br>
     
     <!-- Date of Birth -->
     <label for="dob">Date of Birth*</label><br>
-    <input type="date" id="dob" name="dob" required><br><br>
+    <input type="date" id="dob" required><br><br>
     
     <!-- Password -->
     <label for="password">Password*</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+    <input type="password" id="password" required><br><br>
     
     <!-- Portfolio URL -->
-    <label for="portfolio">Portfolio URL</label><br>
-    <input type="url" id="portfolio" name="portfolio"><br><br>
+    <label for="portfolio">Portfolio URL*</label><br>
+    <input type="url" id="portfolio" ><br><br>
     
     <!-- Submit Button -->
     <button type="submit">Submit</button>
